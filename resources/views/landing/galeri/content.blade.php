@@ -28,12 +28,12 @@
                             <img src="https://cdn.pixabay.com/photo/2023/12/30/17/39/kombucha-8478515_1280.jpg"
                                 alt="" class="rounded-4 w-100" style=" height:20rem;">
                         </a>
-                        <a href="https://avatars.akamai.steamstatic.com/fab9f6e14530bb7ab8f259edfab656b97d6111e2_full.jpg"
+                        {{-- <a href="https://avatars.akamai.steamstatic.com/fab9f6e14530bb7ab8f259edfab656b97d6111e2_full.jpg"
                             class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center" data-toggle="lightbox"
                             data-gallery="image-gallery" data-type="image" data-caption="img 2">
                             <img src="https://avatars.akamai.steamstatic.com/fab9f6e14530bb7ab8f259edfab656b97d6111e2_full.jpg"
                                 alt="" class="rounded-4 w-100" style=" height:20rem;">
-                        </a>
+                        </a> --}}
                         <a href="https://cdn.pixabay.com/photo/2023/12/22/09/46/cotton-top-tamarin-8463471_1280.jpg"
                             class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center" data-toggle="lightbox"
                             data-gallery="image-gallery" data-type="image" data-caption="img 3">
@@ -72,8 +72,7 @@
                 </div>
 
 
-                <div class="tab-pane fade" id="galeri-video" role="tabpanel" aria-labelledby="profile-tab"
-                    tabindex="0">
+                <div class="tab-pane fade" id="galeri-video" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                     <div class="row mt-3 g-4 mb-5" style="min-height:60vh">
 
                         {{-- untuk video, user harus mengambil id dari video

@@ -1,4 +1,54 @@
 @section('pesan')
+    <div class="modal fade" id="jawab" tabindex="-1" role="dialog" aria-labelledby="jawab" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Jawab Pesan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="forms-sample">
+                        <div class="form-group row">
+                            <label for="nama_file" class="col-sm-3 col-form-label">Jawaban Pesan</label>
+                            <div class="col-sm-9">
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Kirim</button>
+                        <button class="btn btn-light" data-dismiss="modal" aria-label="Close">Batal</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="tolak" tabindex="-1" role="dialog" aria-labelledby="jawab" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Tolak Pesan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-3">Yakin Tolak Pesan ?</p>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger mr-2">Ya</button>
+                    <button class="btn btn-light" data-dismiss="modal" aria-label="Close">Tidak</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="content-wrapper">
         <div class=" stretch-card">
             <div class="card">
@@ -44,9 +94,9 @@
                                     </td>
                                     <td>
                                         <button type="button" class="btn btn-inverse-success btn-fw btn-sm"
-                                            data-toggle="modal" data-target="#detail-file">Jawab Pesan</button>
+                                            data-toggle="modal" data-target="#jawab">Jawab Pesan</button>
                                         <button type="button" class="btn btn-inverse-danger btn-fw btn-sm"
-                                            data-toggle="modal" data-target="#hapus">Tolak Jawab</button>
+                                            data-toggle="modal" data-target="#tolak">Tolak Jawab</button>
 
                                     </td>
                                 </tr>

@@ -116,10 +116,11 @@
                             <tbody>
                                 <tr>
                                     <td scope="row">1</td>
-                                    <td> <a href="https://unsplash.it/1200/768.jpg?image=250" data-toggle="lightbox"
-                                            data-gallery="image-gallery" data-type="image">
-                                            <img src="https://unsplash.it/600.jpg?image=250" alt=""style="
-                                        width:10rem;height:10rem;border-radius:10px" class="img-fluid">
+                                    <td> <a href="https://images.pexels.com/photos/18578343/pexels-photo-18578343/free-photo-of-a-woman-in-a-white-dress-and-hat-walking-through-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                            data-toggle="lightbox" data-gallery="image-gallery" data-type="image">
+                                            <img src="https://images.pexels.com/photos/18578343/pexels-photo-18578343/free-photo-of-a-woman-in-a-white-dress-and-hat-walking-through-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                alt=""style="
+                                            width:10rem;height:10rem;border-radius:10px" class="img-fluid">
                                         </a>
                                     </td>
                                     <td>Photoshop</td>

@@ -4,5 +4,5 @@ import(
 );
 
 import "bs5-lightbox";
-// import "./bpkad";
 import "./header";
+import "./footer";

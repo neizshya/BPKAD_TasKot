@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-12 col-xxl-5 px-0  mt-3 mt-lg-0">
                     <p class="h4 text-white">Tinggalkan Pesan</p>
-                    <form action="" class="row w-100">
+                    <form class="row w-100" id="footer-form">
                         <div class="col-12 col-lg-6">
                             <div class="input-wrapper-pesan">
                                 <input autocomplete="off" class="input-pesan" type="text" id="nama" required
@@ -71,7 +71,8 @@
                             </div>
                         </div>
                         <div class="col-12 mt-3">
-                            <button class="btn btn-primary w-100" type="submit">Kirim Pesan</button>
+                            <button class="btn btn-primary w-100" type="submit" id="submit-button">Kirim Pesan</button>
+
                         </div>
                     </form>
                 </div>
@@ -98,6 +99,7 @@
         </div>
 
         <div class="col-12 overflow-hidden">
+
 
             <p class="bottom-0 text-center">© 2024 DISKOMINFO Kota Tasikmalaya. All Right Reserved</p>
         </div>

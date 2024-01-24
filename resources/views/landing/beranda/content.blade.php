@@ -35,7 +35,7 @@
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active">
-                    <img src="https://avatars.akamai.steamstatic.com/fab9f6e14530bb7ab8f259edfab656b97d6111e2_full.jpg"
+                    <img src="https://avatars.cloudflare.steamstatic.com/d787554503b1712803bb816def2ceb91862680c6_full.jpg"
                         class="d-block w-100 custom-carousel" alt="...">
                     <div class="carousel-caption  bg-glass-card-carousel px-3">
                         <h5>First slide label</h5>

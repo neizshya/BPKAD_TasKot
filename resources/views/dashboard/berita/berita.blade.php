@@ -19,7 +19,7 @@
 </head>
 
 <body class="sidebar-light">
-    @include('dashboard.informasi_publik.content')
+    @include('dashboard.berita.content')
     @include('components.header.dashboard')
     @include('components.footer.dashboard')
     @include('components.sidebar.dashboard')
@@ -31,7 +31,7 @@
             @yield('sidebar')
 
             <div class="main-panel">
-                @yield('informasi_publik')
+                @yield('berita')
 
                 @yield('footer')
             </div>
