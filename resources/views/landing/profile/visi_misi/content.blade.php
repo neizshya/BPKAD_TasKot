@@ -6,7 +6,7 @@
                 <li class="breadcrumb-item active " aria-current="page">Visi & Misi</li>
             </ol>
         </nav>
-        <div class="text-white row gx-5 gy-2">
+        <div class="text-dark bg-white row gx-5 gy-2 pb-5 rounded-3">
             <div class="col-12 col-lg-6 d-flex align-items-center row">
                 <div class="d-lg-none d-block col-12 mt-5">
                     <p class="h1 fw-semibold">
@@ -14,7 +14,6 @@
                     </p>
                 </div>
                 <div class="col-12">
-
                     <p class="h1 justified-text" style="z-index: 1000">
                         Terwujudnya Transformasi dan Peningkatan Kualitas Layanan Publik serta Pengelolaan Keuangan Daerah
                         yang
@@ -34,7 +33,7 @@
                     class="d-lg-block d-none"></dotlottie-player>
             </div>
             <div class="col-12 col-lg-6  ">
-                <div class="d-lg-none d-block col-12 mt-5">
+                <div class="d-lg-none d-block col-12 mt-5 ">
                     <p class="h1 fw-semibold">
                         Misi
                     </p>

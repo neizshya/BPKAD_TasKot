@@ -16,7 +16,7 @@
     @include('components.footer.footer')
 
     @yield('header')
-    <main class="position-relative" style="min-height:100vh;">
+    <main class="position-relative" style="min-height:80vh;">
         @yield('sejarah_singkat')
     </main>
     @yield('footer')

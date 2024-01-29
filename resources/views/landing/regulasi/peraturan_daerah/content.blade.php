@@ -7,9 +7,8 @@
             </ol>
         </nav>
         <div class="container-fluid row p-0 px-xxl-5 g-3">
-
             <div class="col-lg-12">
-                <div class="card text-white bg-glass-card-regulasi py-3 px-3 rounded-4">
+                <div class="card text-dark bg-glass-card-regulasi py-3 px-3 rounded-4">
                     <div class="hstack gap-5 px-4 px-xxl-0">
                         <div class="p-2 ms-4 d-none d-md-block">
                             <img src="https://cdn.pixabay.com/photo/2023/12/30/17/39/kombucha-8478515_1280.jpg"
@@ -20,7 +19,7 @@
                         </div>
                         <div class="row gy-3 mt-1 d-flex justify-content-center align-items-center">
                             <div class="col-12 p-0">
-                                <p class="h3 text-white">
+                                <p class="h3 text-dark">
                                     Nama-file
                                 </p>
                             </div>

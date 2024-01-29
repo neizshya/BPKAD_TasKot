@@ -5,9 +5,9 @@
                 <li class="breadcrumb-item text-white h3">Galeri</li>
             </ol>
         </nav>
-        <div class="container-fluid px-3">
+        <div class="container-fluid px-3 bg-white rounded-3 ">
             <ul class="nav nav-underline " id="myTab" role="tablist" style="--bs-nav-link-font-size:1.3rem"
-                data-bs-theme="dark">
+                data-bs-theme="light">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#galeri-foto"
                         type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"

@@ -1,10 +1,10 @@
 @section('header')
     <div class="offcanvas offcanvas-end bg-glass-off-canvas " tabindex="-1" id="navbar"
         aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-            <a href="/#beranda" class=" me-md-auto link-light text-decoration-none">
-                <img src="{{ asset('img/bpkad-logo.svg') }}" alt="">
-            </a>
+        <div class="offcanvas-header d-flex justify-content-end">
+            {{-- <a href="/#beranda" class=" me-md-auto link-light text-decoration-none">
+                <img src="{{ asset('img/bpkad-logo.png') }}" alt="">
+            </a> --}}
             <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="bi bi-x btn-close-off-canvas"></i>
             </button>
@@ -110,7 +110,7 @@
     <header
         class="d-flex flex-wrap justify-content-between justify-content-lg-center py-3  bg-glass text-white sticky-top z-3 px-4">
         <a href="/#beranda" class=" me-md-auto link-light text-decoration-none">
-            <img src="{{ asset('img/bpkad-logo.svg') }}" alt="" class='header-logo'>
+            <img src="{{ asset('img/bpkad-logo.png') }}" alt="" class='header-logo'>
         </a>
 
         <ul class="d-none d-lg-flex nav nav-pills">

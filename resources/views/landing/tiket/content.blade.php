@@ -7,10 +7,10 @@
         </nav>
         <div class="container">
             <form action="">
-                <div class="input-group mb-3" data-bs-theme="dark">
-                    <input type="text" class="form-control" placeholder="Masukan Tiket" aria-label="Masukan Tiket"
-                        aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Cek</button>
+                <div class="input-group mb-3 " data-bs-theme="light">
+                    <input type="text" class="form-control bg-white" placeholder="Masukan Tiket"
+                        aria-label="Masukan Tiket" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-light" type="submit" id="button-addon2">Cek</button>
                 </div>
             </form>
         </div>
